@@ -1,0 +1,44 @@
+body {
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #0000ff;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  color: white;
+  background-color: #008080;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #800080;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+.skipORagain {
+  background-color: #000080;
+  text-align: center;
+}
+
+.btn:disabled {
+  background-color: red;
+}

@@ -1,0 +1,104 @@
+ [
+		{
+			"id": 1,
+			"quiz_question": "Inside which HTML element do we put the JavaScript?",
+			"possibleAnswers": [
+				{ "id":1.1, "answer": "<script>", "correctAnsQuize": true },
+				{ "id":1.2,"answer": "<javascript>", "correctAnsQuize": false },
+				{ "id":1.3,"answer": "<scripting>", "correctAnsQuize": false },
+				{ "id":1.4,"answer": "<js>", "correctAnsQuize": false }
+			]
+		},
+		{
+			"id": 2,
+			"quiz_question": "How do you write 'Hello World' in an alert box?",
+			"possibleAnswers": [
+				{ "id":2.1,"answer": "msg('Hello World');", "correctAnsQuize": false },
+				{ "id":2.2,"answer": "alertBox('Hello World');", "correctAnsQuize": false },
+				{ "id":2.3,"answer": "alert('Hello World');", "correctAnsQuize": true },
+				{ "id":2.4,"answer": "msgBox('Hello World');", "correctAnsQuize": false }
+			]
+		},
+		{
+			"id": 3,
+			"quiz_question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+			"possibleAnswers": [
+				{ "id":3.1,"answer": "<script name='xxx.js'>", "correctAnsQuize": false },
+				{ "id":3.2,"answer": "<script href='xxx.js'>", "correctAnsQuize": false },
+				{ "id":3.3,"answer": "<script src='xxx.js'>", "correctAnsQuize": true },
+				{ "id":3.4,"answer": "<script ref='xxx.js'>", "correctAnsQuize": false }
+			]
+		},
+		{
+			"id": 4,
+			"quiz_question": "How does a FOR loop start?",
+			"possibleAnswers": [
+				{ "id":4.1,"answer": "for (i = 0; i <= 5)", "correctAnsQuize": false },
+				{ "id":4.2,"answer": "for i = 1 to 5", "correctAnsQuize": false },
+				{ "id":4.3,"answer": "for (i <= 5; i++)", "correctAnsQuize": false },
+				{ "id":4.4,"answer": "for (i = 0; i <= 5; i++)", "correctAnsQuize": true }
+			]
+		},
+		{
+			"id": 5,
+			"quiz_question": "How to write an IF statement in JavaScript?",
+			"possibleAnswers": [
+				{ "id":5.1,"answer": "if i = 5 then", "correctAnsQuize": false },
+				{ "id":5.2,"answer": "if i == 5 then", "correctAnsQuize": false },
+				{ "id":5.3,"answer": "if i = 5", "correctAnsQuize": false },
+				{ "id":5.4,"answer": "if (i == 5)", "correctAnsQuize": true }
+			]
+		},
+		{
+			"id": 6,
+			"quiz_question": "How do you round the number 7.25, to the nearest integer?",
+			"possibleAnswers": [
+				{ "id":6.1,"answer": "Math.rnd(7.25)", "correctAnsQuize": false },
+				{ "id":6.2,"answer": "Math.round(7.25)", "correctAnsQuize": true },
+				{ "id":6.3,"answer": "round(7.25)", "correctAnsQuize": false },
+				{ "id":6.4,"answer": "rnd(7.25)", "correctAnsQuize": false }
+			]
+		},
+		{
+			"id": 7,
+			"quiz_question": "How do you find the number with the highest value of x and y?",
+			"possibleAnswers": [
+				{ "id":7.1,"answer": "Math.max(x, y)", "correctAnsQuize": true },
+				{ "id":7.2,"answer": "top(x, y)", "correctAnsQuize": false },
+				{ "id":7.3,"answer": "Math.ceil(x, y)", "correctAnsQuize": false },
+				{ "id":7.4,"answer": "ceil(x, y)", "correctAnsQuize": false }
+			]
+		},
+		{
+			"id": 8,
+			"quiz_question": "Which event occurs when the user clicks on an HTML element?",
+			"possibleAnswers": [
+				{ "id":8.1,"answer": "onchange", "correctAnsQuize": false },
+				{ "id":8.2,"answer": "onmouseover", "correctAnsQuize": false },
+				{ "id":8.3,"answer": "onclick", "correctAnsQuize": true },
+				{ "id":8.4,"answer": "onmouseclick", "correctAnsQuize": false }
+			]
+		},
+		{
+			"id": 9,
+			"quiz_question": "Which operator is used to assign a value to a variable?",
+			"possibleAnswers": [
+				{ "id":9.1,"answer": "=", "correctAnsQuize": true },
+				{ "id":9.2,"answer": ".", "correctAnsQuize": false },
+				{ "id":9.3,"answer": "x", "correctAnsQuize": false },
+				{ "id":9.4,"answer": "*", "correctAnsQuize": false }
+			]
+		},
+		{
+			"id": 10,
+			"quiz_question": "How can you detect the client's browser name?",
+			"possibleAnswers": [
+				{ "id":10.1,"answer": "browser.name", "correctAnsQuize": false },
+				{ "id":10.2,"answer": "navigator.appName", "correctAnsQuize": true },
+				{ "id":10.3,"answer": "client.navName", "correctAnsQuize": false },
+				{ "id":10.4,"answer": "browser.navName", "correctAnsQuize": false }
+			]
+		}
+		
+		
+	]
